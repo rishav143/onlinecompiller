@@ -1,0 +1,40 @@
+*{margin: 0;}
+
+.header {
+    background: #5626a3;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(232, 239, 174);
+    padding:  20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ .control-panel {
+    background: rgb(213, 144, 144);
+    text-align: right;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.languages {
+    background: rgb(234, 212, 212);
+    border: 1px solid gray;
+}
+#editor {
+    height: 400px;
+}
+.button-container {
+    text-align: right;
+    padding: 5px;
+}
+.btn{
+    background: rgb(1, 158, 255);
+    padding: 8px;
+    border: 0;
+}
+.output{
+    background-color: rgb(243, 217, 217);
+    padding: 4px;
+    border: 2px solid gray;
+    min-height: 100px;
+    resize: none;
+}
